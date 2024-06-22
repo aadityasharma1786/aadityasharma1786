@@ -1,0 +1,21 @@
+PYTHON QUIZ GAME
+
+questions=(" how many elements are in periodic tables? : " , 
+          "  which animal lays the largest eggs? : " ,
+          "  how many plants are in solar system? : " ,
+          "  how many bones are in the human body? : " ,
+          "  which planent in solar system in hottest? : " ,)
+options=( ("A.116 ", " B.117" , "C.118 " , "   D.119")
+          ("A.WHALE " ,  " B. CROCODILE     " ,   "C.ELEPHANT   " , "   D.OSTRICH")
+           ("A.8 " ,   "B.9 " , "C.10  " , "D.145 ")
+            ("A.206 " ,  "B.201 " , "C.231" , "D.207 " ) 
+            ("A.MERCURY" , "B.VENUS " , "C.MARS" , "D.JUPITER " )
+answers=("C", "D" , "8" , "A" , "B")
+guessess=[]
+score=0
+questions_num=0
+
+
+
+for questions in questions:
+print
